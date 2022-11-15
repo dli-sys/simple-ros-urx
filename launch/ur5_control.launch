@@ -1,0 +1,8 @@
+<launch>
+  <node
+    pkg="universal_robots"
+    type="talker_ur5e.py"
+    name="universal_robots"
+    output="screen"
+  />
+</launch>
